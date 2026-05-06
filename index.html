@@ -423,6 +423,19 @@ nav.scrolled {
   margin-top: 1.2rem;
   align-items: start;
 }
+.serve-figure {
+  margin: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(110,42,42,0.10), 0 4px 12px rgba(110,42,42,0.05);
+  background: var(--white);
+  border: 1px solid var(--line);
+}
+.serve-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .serve-card {
   background: var(--cream-2);
   border: 1px solid var(--line);
@@ -1114,53 +1127,15 @@ html.present-mode .fade-up { opacity: 1 !important; transform: none !important; 
     </div>
 
     <div class="serve-grid">
-
-      <div class="serve-card fade-up delay-1">
-        <div class="serve-card-eyebrow">Our Community</div>
-        <div class="serve-card-title">Gained</div>
-        <ul>
-          <li><span class="num">01</span><span>Access to private, hijab‑friendly classes in Austin.</span></li>
-          <li><span class="num">02</span><span>A sisterhood working towards bettering themselves.</span></li>
-          <li><span class="num">03</span><span>New skills, insights, or practices to carry forward.</span></li>
-        </ul>
-      </div>
-
-      <div class="serve-card fade-up delay-2">
-        <div class="serve-card-eyebrow">Partnerships</div>
-        <div class="serve-card-title">We Fostered</div>
-        <div class="serve-tag-grid">
-          <div class="serve-tag">Pure Barre</div>
-          <div class="serve-tag">Pilates 512</div>
-          <div class="serve-tag">SP FIT</div>
-          <div class="serve-tag">Diva Dance</div>
-          <div class="serve-tag">The Dance Spot</div>
-          <div class="serve-tag">Bolly ATX Cardio</div>
-          <div class="serve-tag">CRUX Climbing</div>
-          <div class="serve-tag">Volley World</div>
-          <div class="serve-tag">Aces Jiu Jitsu</div>
-          <div class="serve-tag">ICNA Relief</div>
-          <div class="serve-tag">Love Cycling</div>
-          <div class="serve-tag">LAPIS</div>
-          <div class="serve-tag">Boards by Aya</div>
-          <div class="serve-tag">Altair</div>
-          <div class="serve-tag">Austin Badminton</div>
-          <div class="serve-tag">Wholesome Start</div>
-          <div class="serve-tag">AFSSA</div>
-          <div class="serve-tag">Small Salaams</div>
-        </div>
-      </div>
-
-      <div class="serve-card fade-up delay-3">
-        <div class="serve-card-eyebrow" style="display:flex; align-items:center; gap:0.6rem;">
-          <img src="noor collective logo.webp" alt="" style="height:28px; width:auto;">
-        </div>
-        <div class="serve-card-title">2025 Recap</div>
-        <p style="font-family:'Cormorant Garamond',serif; font-size:1.05rem; color:var(--ink); line-height:1.6; margin-top:0.4rem;">
-          A first six months marked by community gatherings, hijab‑friendly fitness classes, sisterhood, and partnerships across Austin.
-        </p>
-        <div style="margin-top:auto; padding-top:1rem; font-size:0.78rem; color:var(--ink-soft); font-style:italic;">Est. Jul 2025</div>
-      </div>
-
+      <figure class="serve-figure fade-up delay-1">
+        <img src="community gained.png" alt="Our Community Gained">
+      </figure>
+      <figure class="serve-figure fade-up delay-2">
+        <img src="partnerships fostered.png" alt="Partnerships We Fostered">
+      </figure>
+      <figure class="serve-figure fade-up delay-3">
+        <img src="2025 recap.png" alt="Noor Collective 2025 Recap">
+      </figure>
     </div>
   </div>
 </section>
